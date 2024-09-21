@@ -1,0 +1,7 @@
+f = open("1.txt", "w")
+f.write("utku is lovelyy")
+f.close()
+f = open("1.txt", "r")
+content = f.read()
+f.close()
+print(content)
